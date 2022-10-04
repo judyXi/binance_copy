@@ -1,0 +1,50 @@
+.img-logo{
+    background-image: url(../img/logo-1.png);
+    background-position: center;
+    width: 16px;
+    height: 16px;
+    // margin-top: 10px;
+}
+
+
+@media  (min-width: 980px) {
+    .max-Banner{
+        max-width: 80%;
+        margin-bottom: 30px;
+        .btn-Banner{
+            width: 30%;
+        }        
+    }
+    .form-control{
+        width: 70%;
+        padding: 6px;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .Banner-h1{
+        font-size: 56px;
+        font-weight: 600;
+        word-spacing: 20px;
+        margin-bottom: 31px;
+        margin-top: 31px;
+    }
+    .btn-Banner{
+        width: 30%;
+    }
+    .text-top{
+        padding: 5px;
+    }
+}
+
+@media (min-width: 576px) {
+    .Banner-h1{
+        font-weight: 600;
+        margin-bottom: 31px;
+    }
+
+}
+
+
+
