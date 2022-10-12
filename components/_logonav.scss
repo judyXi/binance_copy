@@ -1,0 +1,151 @@
+.a-link{
+    color: black
+    text-decoration none;
+}
+
+.mt-7{
+    margin-top: 130px !important;
+}
+
+.img-logo{
+    background-image: url(../img/logo-1.png);
+    background-position: center;
+    width: 16px;
+    height: 16px;
+    // margin-top: 10px;
+}
+
+.logo-bg-black{
+    background-color: rgba(18, 22, 28, 0.9) !important;
+}
+
+.nav-bg-white{
+    background-color: rgb(255, 255, 255) !important;
+}
+
+.nav-bg-warning{
+    background-color: rgb(254, 246, 216) !important;
+}
+
+
+
+//黃按鈕RWD
+.btn-pa{
+    width: 100%;
+    background-color: #FCD535;
+}
+//h1小字
+.h1-sm{
+    margin: 0;
+    min-width: 0;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+}
+//p小字
+.p-sm{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+//RWD字消失
+.hot-d{
+    visibility : hidden
+}
+
+
+@media  (min-width: 980px) {
+    .mt-6{
+        margin-top: 100px !important;
+    }
+    .mb-6{
+        margin-bottom: 80px !important;
+    }
+
+    .max-Banner{
+        max-width: 80%;
+        margin-bottom: 30px;
+        .btn-Banner{
+            width: 30%;
+        }        
+    }
+    .form-control{
+        width: 70%;
+        padding: 6px;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .Banner-h1{
+        font-size: 56px;
+        font-weight: 600;
+        word-spacing: 20px;
+        margin-bottom: 31px;
+        margin-top: 31px;
+    }
+    .btn-Banner{
+        width: 30%;
+    }
+    .text-top{
+        padding: 5px;
+    }
+    .btn-pa{
+        padding: 10px 30px;
+        width: 200px;
+    }
+    .h1-sm{
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 48px;
+    }
+    .p-sm{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .hot-d{
+        visibility: visible;
+    }
+}
+
+
+
+
+
+@media (min-width: 576px) {
+    .Banner-h1{
+        font-weight: 900;
+        margin-bottom: 31px;
+        margin-top: 30px;
+        font-size: 40px;
+    }
+
+}
+
+//建立您的價密貨幣以下
+.phone-os{
+    display: none;
+}
+
+.phone-in{
+    display: block;
+    margin: 0 auto;
+}
+
+@media (min-width: 998px) {
+    .phone-os{
+        display: block;
+        margin: 0 auto;
+    }
+    .phone-in{
+        display: none;
+        // background-position: center;
+        margin: 0;
+    }
+}
+
+.w-100{
+    width: 100%;
+}
