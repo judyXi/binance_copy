@@ -1,11 +1,18 @@
-.a-link{
-    color: black
-    text-decoration none;
+#container{
+    min-width: 320px;
+    max-width: 1980px;
+}
+
+
+a:link {
+    text-decoration: none;
 }
 
 .mt-7{
     margin-top: 130px !important;
 }
+
+
 
 .img-logo{
     background-image: url(../img/logo-1.png);
@@ -54,10 +61,16 @@
     visibility : hidden
 }
 
+//小文字
+.text-sm{
+    padding: 10px 0;
+    font-size: 12px;
+}
+
 
 @media  (min-width: 980px) {
     .mt-6{
-        margin-top: 100px !important;
+        margin-top: 140px !important;
     }
     .mb-6{
         margin-bottom: 80px !important;
@@ -121,7 +134,10 @@
         margin-top: 30px;
         font-size: 40px;
     }
-
+    .text-sm{
+        font-size: 14px;
+        padding: 8px 0;
+    }
 }
 
 //建立您的價密貨幣以下
@@ -148,4 +164,122 @@
 
 .w-100{
     width: 100%;
+}
+
+//與幣安一起探索無限可能
+//外框
+.frame-bg{
+    transition: all .15s;
+    background-color: #FAFAFA;
+    border-radius: 8px;
+    border-color: #FAFAFA;
+}
+.frame-bg:hover{
+    box-shadow: 0px 8px 16px rgb(24 26 32 / 16%);
+}
+
+.f{
+    flex-direction: column-reverse ;
+}
+
+.card-textH1{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: #1E2329;
+    margin-bottom: 8px;
+    margin-top: 24px;
+}
+
+@media (min-width: 576px) {
+    .f{
+        flex-direction: column-reverse;
+    }
+}
+
+@media (min-width: 998px) {
+    .f{
+        flex-direction: row-reverse;
+    }
+}
+
+@media (min-width: 1200px) {
+    .f{
+        flex-direction: column-reverse;
+    }
+    .box-h{
+        min-height: 570px
+        
+    }
+    .card-p{
+        margin-top: 160px;
+    }
+    .card-img{
+        margin-top: 100px;
+    }
+}
+
+//值得您信賴
+
+.brea-f{
+    visibility: hidden;
+}
+.brea-h{
+    visibility: visible;
+}
+@media (min-width: 998px) {
+    .brea-f{
+        visibility: visible;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .brea-h{
+        visibility: hidden;
+    }
+}
+
+
+//需要幫忙
+.help-img{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.fontsninja-text {
+    font-size: 22px;
+}
+
+
+//今天就開始賺取收益
+.end-bg{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #FAFAFA;
+}
+
+.h1-small{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+
+@media (min-width: 768px) {
+    .h1-small{
+        font-size: 40px;
+
+    }
+    .end-bg{
+        padding-top: 40px;
+        padding-bottom: 40px;
+        background-color: #FAFAFA;
+    }
+}
+
+//footer
+.ft-ul{
+    font-size: 20px;
+    list-style: none;
+    li{
+        font-size: 14px;
+    }
 }
