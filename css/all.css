@@ -11530,10 +11530,13 @@ a:link {
     background-color: #FAFAFA;
   }
 }
-.ft-ul {
-  font-size: 20px;
-  list-style: none;
+.foot-cl {
+  display: block;
+  color: #a0a0a0;
 }
-.ft-ul li {
-  font-size: 14px;
+
+@media (min-width: 980px) {
+  .accordion {
+    --bs-accordion-border-color: none;
+  }
 }/*# sourceMappingURL=all.css.map */
