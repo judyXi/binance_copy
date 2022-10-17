@@ -11535,8 +11535,29 @@ a:link {
   color: #a0a0a0;
 }
 
+.foot-ul {
+  font-size: 20px;
+}
+
+.foot-li {
+  font-size: 14px;
+  color: #a0a0a0;
+}
+
+.foot-no1 {
+  visibility: hidden;
+}
+
 @media (min-width: 980px) {
   .accordion {
     --bs-accordion-border-color: none;
+  }
+}
+@media (min-width: 767px) {
+  .foot-no {
+    display: none !important;
+  }
+  .foot-no1 {
+    visibility: visible;
   }
 }/*# sourceMappingURL=all.css.map */
